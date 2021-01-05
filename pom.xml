@@ -39,6 +39,7 @@
     <scala.compat.version>2.12</scala.compat.version>
     <scala.version>2.12.6</scala.version>
     <spec2.version>4.2.0</spec2.version>
+    <lombok.version>1.18.16</lombok.version>
   </properties>
 
   <build>
@@ -257,22 +258,28 @@
       <artifactId>kafka-streams-scala_${scala.compat.version}</artifactId>
       <version>${kafka.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>provided</scope>
+    </dependency>
 
     <!-- Databases drivers -->
     <!-- ****************** -->
     <!-- Mysql -->
-<!--    <dependency>-->
-<!--      <groupId>mysql</groupId>-->
-<!--      <artifactId>mysql-connector-java</artifactId>-->
-<!--      <version>8.0.19</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.19</version>
+    </dependency>
 
     <!-- Postgres -->
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.2.12</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.postgresql</groupId>-->
+<!--      <artifactId>postgresql</artifactId>-->
+<!--      <version>42.2.12</version>-->
+<!--    </dependency>-->
 
     <!-- Testing -->
     <!-- ******* -->

@@ -1,0 +1,14 @@
+{
+  "charging_source": "utility",
+  "processor4_temp": 24,
+  "device_id": "98de5af4-c327-4d55-ac45-ff703302960e",
+  "processor2_temp": 156,
+  "processor1_temp": 59,
+  "charging": 398,
+  "current_capacity": 2709,
+  "inverter_state": 3,
+  "moduleL_temp": 51,
+  "moduleR_temp": 28,
+  "processor3_temp": 220,
+  "SoC_regulator": 27.079323
+}
