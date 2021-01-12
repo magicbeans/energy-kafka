@@ -1,11 +1,16 @@
-template: Hello, %s!
-defaultName: Stranger
+kafka:
+  bootstrapServers: "localhost:29092"
+  acksRequiredOnWrite: 1
+  retries: 10
+  schemaRegistryUrl: "http://localhost:8090"
+  streamsApplicationId: "energy_app"
+  deviceDataTopic: "device-data"
 
 database:
   driverClass: com.mysql.cj.jdbc.Driver
   user: root
   password: secret-pw
-  url: "jdbc:mysql://0.0.0.0:3306/information_schema"
+  url: "jdbc:mysql://0.0.0.0:3306/energy_data"
   properties:
     charSet: UTF-8
   maxWaitForConnection: 1s

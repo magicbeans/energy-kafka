@@ -1,0 +1,69 @@
+{
+  "namespace": "uk.me.ajv.energykafka.avro",
+  "type": "record",
+  "name": "DeviceDataMessage",
+  "version": 1,
+  "fields": [
+    {
+      "name": "charging_source",
+      "type": "string"
+    },
+    {
+      "name": "charging",
+      "type": [
+        "int",
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "current_capacity",
+      "type": [
+        "int",
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "device_id",
+      "type": "string"
+    },
+    {
+      "name": "inverter_state",
+      "type": "int"
+    },
+    {
+      "name": "moduleL_temp",
+      "type": "int"
+    },
+    {
+      "name": "moduleR_temp",
+      "type": "int"
+    },
+    {
+      "name": "processor1_temp",
+      "type": "int"
+    },
+    {
+      "name": "processor2_temp",
+      "type": "int"
+    },
+    {
+      "name": "processor3_temp",
+      "type": "int"
+    },
+    {
+      "name": "processor4_temp",
+      "type": "int"
+    },
+    {
+      "name": "SoC_regulator",
+      "type": "double"
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis"
+    }
+  ]
+}

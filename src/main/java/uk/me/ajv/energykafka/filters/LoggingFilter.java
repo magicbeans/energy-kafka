@@ -19,7 +19,6 @@ public class LoggingFilter implements ContainerRequestFilter {
 
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
-
         String text = new BufferedReader(
                 new InputStreamReader(requestContext.getEntityStream(), StandardCharsets.UTF_8)).lines()
                 .collect(Collectors.joining("\n"));
