@@ -1,7 +1,8 @@
-# User scaffolding and tools
+# energy-kafka
 
-Hopefully this scaffold will help you get quickly up and running to build you streaming
-applications.
+Dropwizard service created as part of Manning's Live Project - "Managing a Distributed Electrical Grid in Real Time with Kafka".
+
+Details from the supplied getting started maven template below:
 
 ## Getting started
 

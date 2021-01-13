@@ -14,7 +14,6 @@ import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.Consumed;
-import org.apache.kafka.streams.kstream.KStream;
 import org.jdbi.v3.core.Jdbi;
 import uk.me.ajv.energykafka.EnergyAppConfiguration;
 import uk.me.ajv.energykafka.adapters.DeviceDataMessageProcessor;

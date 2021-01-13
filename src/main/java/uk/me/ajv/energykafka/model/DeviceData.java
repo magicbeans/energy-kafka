@@ -1,6 +1,9 @@
 package uk.me.ajv.energykafka.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import uk.me.ajv.energykafka.api.DeviceDataDto;
 import uk.me.ajv.energykafka.avro.DeviceDataMessage;
 

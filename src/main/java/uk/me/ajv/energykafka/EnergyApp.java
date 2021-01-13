@@ -5,7 +5,6 @@ import io.dropwizard.jdbi3.JdbiFactory;
 import io.dropwizard.jdbi3.bundles.JdbiExceptionsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
-
 import org.jdbi.v3.core.Jdbi;
 import uk.me.ajv.energykafka.adapters.DeviceDataMessageProducer;
 import uk.me.ajv.energykafka.commands.ReadDeviceDataCommand;
